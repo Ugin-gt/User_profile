@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;}
+  
+.cards-wrapper {
+background-color:rgb(162,185,209);
+}
+.card-container {
+margin: auto;
+--card-accent-color:rgb(96, 181, 255);
+border: 1px solid var(--card-accent-color);
+background-color: var(--card-accent-color);
+max-width: 400px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.card-bg {
+height: 150px;
+}
+.card-content {
+background-color: white;
+box-sizing: border-box;
+padding: 20px;
+padding-top: 0px;
+}
+
+/* .photo-wrapper {
+background-color: transparent;  
+margin-top: -70px;
+} */
+
+.card-foto {
+--card-size: 140px ;  
+width: var(--card-size);
+height: var(--card-size);
+margin-top: calc(var(--card-size)/2*-1);
+margin-bottom: 15px;
+border: 5px solid white;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.btn-container {
+padding: 15px 0;
+margin: 15px 0;  
+border-top: 1px solid lightgrey;  
+border-bottom: 1px solid lightgrey;
+}
+.card-btn {
+background-color: var(--card-accent-color); 
+text-decoration: none;
+font-size: 14px;
+color: #394292;
+border:  1px solid #394292;
+padding: 10px 20px;
+border-radius: 20px;
+}
+.card-btn:hover {
+background: #1af72c;
+color: white;
+box-shadow: inset 0 0 0 3px   #1af72c;
+}
+.par,.contacts-container,.contact {
+padding: 10px ;  
+}
+
